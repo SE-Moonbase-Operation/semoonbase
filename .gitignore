@@ -1,4 +1,19 @@
+# IDE Configurations
+.idea/
+.vs/
+.vscode/
+
 # Build Artifacts
 .moon/cache
 .moon/docker
 .parcel-cache
+*.a
+*.o
+*.so
+*.dll
+**/build*/
+.pio/
+bazel*
+
+# Tooling Caches
+**/node_modules
